@@ -1,0 +1,94 @@
+*{
+margin: 0px;
+padding:0px;
+font-family: sans-serif;
+}
+
+.main{
+    display: table;
+    width: 100%;
+  }
+ 
+.cards{
+    width:20%;
+    height:70vh;
+    background-color:white;
+    border-radius:5px;
+    margin:40px;
+    float:left;
+    padding: 16px;
+    border-style: solid;
+    border-color:lightpink;
+   
+}
+.text{
+    text-align:center;
+}
+.cards:hover{
+    box-shadow:2px 2px 10px blue;
+}
+.image img{
+    width:100%;
+    height: 80%;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+
+}
+.text1{
+    font-size:10px;
+    font-weight:700;
+    color:rgb(255, 192, 213);
+}
+
+.text2{
+    font-size:10px;
+    font-weight:700;
+    color:rgb(255, 187, 0);
+
+}
+.title{
+    text-align:center;
+    margin-bottom:10px;
+    color:rgb(0, 255, 234);
+    padding:10px;
+}
+.des{
+    text-align:center;
+}
+button{
+    margin-top:20px;
+    margin-bottom:40px;
+    background-color:purple;
+    border:3px solid blue;
+    padding:20px;
+    border-radius:5px;
+    background-image:url(shade1.jpg);
+    background-repeat:repeat-x;
+    
+    animation:animate 15s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position:left 0px top 10px;
+    }
+    40%{
+        background-position:left 800px top 10px;
+    }
+
+}
+button:hover{
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
+.plagination{
+    width:100%;
+   float:left;
+   
+   text-align:center;
+}
+.plagination div{
+    display:inline-block;
+    text-align:center;
+    margin-bottom:10px;
+}

@@ -1,0 +1,73 @@
+body{
+    width: 100%; height: 100%;
+}
+h1,h2,h3,h4,h5.h6{
+    color:#444;
+}
+header{
+    width: 100%; height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(marr1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%; height: 15vh;
+    background: black;
+    color: white ; display: flex; justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 25%; text-align: center;
+}
+nav .menu{
+    width: 40%; 
+    display: flex; justify-content: space-around;
+    
+}
+nav .menu :hover{
+    background-color:#f39d1a;
+}
+
+nav .menu  a{
+    width: 25%; 
+    text-decoration: none; color: white;
+    padding:30 px;
+}
+showing{
+    max-height:100em;
+
+}
+.post-slider .post-wrapper{
+    width:84%;
+    height:350 px;
+    margin: 0 px auto;
+    overflow:hidden;
+    padding:10px 0px 10px 0px; 
+    border: 1px dashed red;
+}
+.post-slider .post-wrapper .post{
+background:#05f7ff;
+display:inline-block;
+width: 300px;
+margin:0 px 10 px;
+height:50%;
+padding:30 px;
+border-radius:5 px;
+color:red;
+}
+.postinfo {
+    position: relative;
+    text-align: center;
+    color: red;
+  }
+.post-slider .post-wrapper .post .slider-image{
+width:100%;
+height:200 px;
+
+main{
+    width: 100%; height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

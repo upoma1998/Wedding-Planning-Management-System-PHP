@@ -1,0 +1,34 @@
+ header{
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(marr1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+   
+    color: white ; display: flex; justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 25%; text-align: center;
+}
+nav .menu{
+    width: 40%; 
+    display: flex; justify-content: space-around;
+    text-decoration: none;
+}
+nav .menu :hover{
+    background-color:#f39d1a;
+}
+nav .menu  a{
+    width: 25%; 
+    text-decoration: none; color: white;
+    padding:30 px;
+}
+main{
+    width: 100%; height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
